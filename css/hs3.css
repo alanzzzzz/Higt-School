@@ -21,10 +21,11 @@ body{
     font-size: .34rem;
 }
 .pag3btn1{
-    width: 1.4rem;
+    padding: 0 .2rem;
     height: .6rem;
     background: #969696;
     border-radius: 10px;
     font-size: .3rem;
     color: white;
+    white-space: nowrap;
 }
