@@ -1,0 +1,75 @@
+body{
+    background: #fcf4df;
+    font-size: 0;
+}
+.actbn{
+    width: 100vw;
+}
+.act1img1{
+    height: .74rem;
+    margin-top: .35rem;
+}
+.act1c2{
+    padding: .39rem .61rem 0;
+
+}
+.act1c2img{
+    height: 1.8rem;
+}
+.act1btn1{
+    width: 6.4rem;
+    height: .88rem;
+    border-radius: 30px;
+    color: #76440a;
+    font-size: .36rem;
+    font-weight: 900;
+    margin: 1.03rem .55rem .17rem;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcd948+1,e89d3b+100 */
+    background: #fcd948; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fcd948 1%, #e89d3b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fcd948 1%,#e89d3b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fcd948 1%,#e89d3b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd948', endColorstr='#e89d3b',GradientType=0 ); /* IE6-9 */
+}
+.act1t1{
+    font-size: .28rem;
+    color: #967450;
+    margin-bottom: .97rem;
+}
+.act1r{
+    width: 2.12rem;
+    height: 0.01rem;
+    background: #d0a170;
+    margin: 0 .3rem;
+}
+.act1rule{
+    font-size: .34rem;
+    color: #76440a;
+}
+.act1foot{
+    width: 6.82rem;
+    font-size: .28rem;
+    color: #76440a;
+    margin-left: .3rem;
+}
+.act1footb{
+    font-size: .3rem;
+    color: #76440a;
+}
+.act1footb1{
+    font-weight:bold
+}
+.mask{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(179,179,179,.5);
+}
+.d-none{
+    display: none!important;
+}
+.code{
+    width: 3.12rem;
+}

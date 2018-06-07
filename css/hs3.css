@@ -1,0 +1,30 @@
+body{
+    font-size: 0;
+    background: #fcf4df;
+}
+.pag3bn{
+    width: 100vw;
+}
+.pag3c1{
+    border-bottom: 1px #d9be9c dashed;
+    width: 6.9rem;
+}
+.pag3jpg{
+    background-image: url("../image/HigtSchool/pag3jpg.png");
+    background-repeat: no-repeat;
+    background-size: .82rem .95rem;
+    font-size: .3rem;
+    width: .82rem;
+    height: .95rem;
+}
+.pag3c1t{
+    font-size: .34rem;
+}
+.pag3btn1{
+    width: 1.4rem;
+    height: .6rem;
+    background: #969696;
+    border-radius: 10px;
+    font-size: .3rem;
+    color: white;
+}
