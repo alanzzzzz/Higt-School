@@ -31,6 +31,10 @@ body{
     background: linear-gradient(to bottom,  #fcd948 1%,#e89d3b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd948', endColorstr='#e89d3b',GradientType=0 ); /* IE6-9 */
 }
+.act1btn1:active{
+    transform: scale(.96);
+    -webkit-transform: scale(.96);
+}
 .act1t1{
     font-size: .28rem;
     color: #967450;
@@ -38,7 +42,7 @@ body{
 }
 .act1r{
     width: 2.12rem;
-    height: 0.01rem;
+    height: 0.02rem;
     background: #d0a170;
     margin: 0 .3rem;
 }

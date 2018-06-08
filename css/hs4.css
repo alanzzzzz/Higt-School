@@ -1,0 +1,47 @@
+body{
+    font-size: 0;
+    background: #fcf4df;
+}
+.pag4bn{
+    width: 100vw;
+}
+.pag4pen{
+    width: 2.78rem;
+    height: .6rem;
+    margin-top: .25rem;
+}
+.pag4sign{
+    width: .7rem;
+    height: .57rem;
+    margin: 0 .14rem 0 .25rem;
+}
+.pag4c2{
+    width: 100vw;
+    height: 1.15rem;
+}
+.pag4text1{
+    font-size: .3rem;
+    color: #76440a;
+    font-weight: bold;
+}
+.pag4text2{
+    font-size: .3rem;
+    color: #9e7e5d;
+    font-weight: bold;
+}
+.pag4code{
+    width: 3.37rem;
+    height: 3.41rem;
+    padding-top: .3rem;
+    margin-bottom: .3rem;
+}
+.pag4r{
+    width: 2.12rem;
+    height: 0.02rem;
+    background: #d0a170;
+    margin: 0 .3rem;
+}
+.pag4rule{
+    font-size: .34rem;
+    color: #76440a;
+}

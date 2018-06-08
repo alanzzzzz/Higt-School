@@ -8,6 +8,23 @@ body{
 .pag3c1{
     border-bottom: 1px #d9be9c dashed;
     width: 6.9rem;
+    height: 1.3rem;
+}
+.pag3jpg1{
+    background-image: url("../image/HigtSchool/pag3jpg1.png");
+    background-repeat: no-repeat;
+    background-size: .82rem .95rem;
+    font-size: .3rem;
+    width: .82rem;
+    height: .95rem;
+}
+.pag3jpg2{
+    background-image: url("../image/HigtSchool/pag3jpg2.png");
+    background-repeat: no-repeat;
+    background-size: .82rem .95rem;
+    font-size: .3rem;
+    width: .82rem;
+    height: .95rem;
 }
 .pag3jpg{
     background-image: url("../image/HigtSchool/pag3jpg.png");
@@ -24,8 +41,27 @@ body{
     padding: 0 .2rem;
     height: .6rem;
     background: #969696;
-    border-radius: 10px;
+    border-radius: 6px;
     font-size: .3rem;
     color: white;
     white-space: nowrap;
+    font-weight: bold;
+}
+.pag3text{
+    font-weight:bold;
+    color: #764d0b;
+}
+#pag3pop{
+    width: 3.2rem;
+    height: .88rem;
+    background: #fcf4df;
+    border-radius: 10px;
+    font-size: .3rem;
+    color: #76440a;
+    font-weight:bold;
+    border: 1px solid #76440a;
+    margin: .3rem 0 .1rem;
+}
+#pag3pop>img{
+    width: .36rem;
 }
