@@ -10,6 +10,9 @@ body{
     height: .6rem;
     margin-top: .25rem;
 }
+.pag4signk{
+    width: 6.28rem;
+}
 .pag4sign{
     width: .7rem;
     height: .57rem;
@@ -39,9 +42,21 @@ body{
     width: 2.12rem;
     height: 0.02rem;
     background: #d0a170;
-    margin: 0 .3rem;
 }
 .pag4rule{
     font-size: .34rem;
     color: #76440a;
+    padding: 0 .3rem;
+}
+.pag4foot{
+    font-size: .28rem;
+    color: #76440a;
+    padding: 0 .3rem;
+}
+.pag4footb{
+    font-size: .3rem;
+    color: #76440a;
+}
+.pag4footb1{
+    font-weight:bold
 }

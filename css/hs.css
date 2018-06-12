@@ -16,14 +16,16 @@ body{
 .act1c2img{
     height: 1.8rem;
 }
+.act1btn1k{
+    padding: 1.03rem .55rem .17rem;
+}
 .act1btn1{
-    width: 6.4rem;
+    width: 100vw;
     height: .88rem;
     border-radius: 30px;
     color: #76440a;
     font-size: .36rem;
     font-weight: 900;
-    margin: 1.03rem .55rem .17rem;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcd948+1,e89d3b+100 */
     background: #fcd948; /* Old browsers */
     background: -moz-linear-gradient(top,  #fcd948 1%, #e89d3b 100%); /* FF3.6-15 */
@@ -44,17 +46,16 @@ body{
     width: 2.12rem;
     height: 0.02rem;
     background: #d0a170;
-    margin: 0 .3rem;
 }
 .act1rule{
     font-size: .34rem;
     color: #76440a;
+    padding: 0 .3rem;
 }
 .act1foot{
-    width: 6.82rem;
     font-size: .28rem;
     color: #76440a;
-    margin-left: .3rem;
+    padding: 0 .3rem;
 }
 .act1footb{
     font-size: .3rem;

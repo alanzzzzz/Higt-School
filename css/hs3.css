@@ -7,7 +7,7 @@ body{
 }
 .pag3c1{
     border-bottom: 1px #d9be9c dashed;
-    width: 6.9rem;
+    width: 100vw;
     height: 1.3rem;
 }
 .pag3jpg1{
@@ -33,6 +33,9 @@ body{
     font-size: .3rem;
     width: .82rem;
     height: .95rem;
+}
+.pag3c1k{
+    padding: 0 .55rem;
 }
 .pag3c1t{
     font-size: .34rem;
@@ -62,6 +65,12 @@ body{
     border: 1px solid #76440a;
     margin: .3rem 0 .1rem;
 }
+.pag3q{
+    margin-left: .1rem;
+}
 #pag3pop>img{
     width: .36rem;
+}
+.d-none{
+    display: none!important;
 }

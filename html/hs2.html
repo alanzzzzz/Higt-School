@@ -18,44 +18,46 @@
 <img src="../image/HigtSchool/pag2bn.png" class="pag2bn">
 <div class="pag2c1" flex="main:center">
     <div class="pag2c1b" flex="cross:center">
-        <div>
+        <label>
             <h3 class="pag2c1bt1">姓名:</h3>
-        </div>
-        <input type="text" placeholder="请填写您的身份证姓名" class="pag2c1inp1">
+        </label>
+        <input type="text" placeholder="请填写您的身份证姓名" class="pag2c1inp1" maxlength="6">
     </div>
 </div>
 <div class="pag2c1" flex="main:center">
     <div class="pag2c1b" flex="cross:center">
-        <div>
+        <label>
             <h3 class="pag2c1bt1">手机号码:</h3>
-        </div>
-        <input type="text" placeholder="请填写您的电话号码" class="pag2c1inp1">
+        </label>
+        <input type="text" placeholder="请填写您的电话号码" class="pag2c1inp2" maxlength="11">
     </div>
 </div>
 <div class="pag2c1" flex="main:center">
     <div class="pag2c1b" flex="cross:center">
-        <div>
+        <label>
             <h3 class="pag2c1bt1">身份证号码:</h3>
-        </div>
-        <input type="text" placeholder="请填写您的身份证号" class="pag2c1inp1">
+        </label>
+        <input type="text" placeholder="请填写您的身份证号" class="pag2c1inp3" maxlength="18">
     </div>
 </div>
 <div flex="main:center cross:center">
-    <div class="pag2c2flame" flex="main:center cross:center">
-        <img src="../image/HigtSchool/pag2camera.png" class="pag2camera">
-    </div>
+    <label class="pag2c2flame" flex="main:center cross:center" for="photo">
+        <input type="file" id="photo">
+    </label>
 </div>
 <div flex="main:center cross:center">
     <span class="pag2c2t">请拍照上传您的准考证或录取通知书或毕业证书</span>
 </div>
+<!--
 
-<div flex="aross:center main:center">
+<div flex="aross:center main:center" class="pag2btnk">
     <button type="button" class="pag2btn">
         <b>确定</b>
     </button>
 </div>
+-->
 
-<div flex="aross:center main:center" class="d-none">
+<div flex="aross:center main:center" class="pag2btnk">
     <button type="button" class="pag2btn2">
         <b>确定</b>
     </button>
