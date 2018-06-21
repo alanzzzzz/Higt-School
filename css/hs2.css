@@ -47,10 +47,6 @@ body{
     background-color: white;
     margin-top: .26rem;
     margin-bottom: .20rem;
-    background-size:1.7rem;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url("../image/HigtSchool/pag2camera.png");
 }
 #photo{
     display: none;
@@ -97,4 +93,38 @@ body{
 }
 .d-none{
     display: none!important;
+}
+.mask{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(179,179,179,.7);
+}
+.validate{
+    width: 5.8rem;
+    height: 3.3rem;
+    background: #fcf4df;
+    border-radius: 10px;
+    position: relative;
+}
+.validatetext1{
+    font-size: .3rem;
+    color: #76440a;
+}
+.validatetext{
+    font-size: .4rem;
+    color: #76440a;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+}
+.validatebtn{
+    position: absolute;
+    width: 5.8rem;
+    height: .88rem;
+    bottom: 0;
+    background: #eca93e;
+    font-size: .36rem;
+    color: white;
 }

@@ -42,6 +42,7 @@
 </div>
 <div flex="main:center cross:center">
     <label class="pag2c2flame" flex="main:center cross:center" for="photo">
+        <img src="../image/HigtSchool/pag2camera.png"  style="width: 80%;">
         <input type="file" id="photo">
     </label>
 </div>
@@ -49,7 +50,6 @@
     <span class="pag2c2t">请拍照上传您的准考证或录取通知书或毕业证书</span>
 </div>
 <!--
-
 <div flex="aross:center main:center" class="pag2btnk">
     <button type="button" class="pag2btn">
         <b>确定</b>
@@ -63,8 +63,53 @@
     </button>
 </div>
 
+<div class="mask d-none errorname" flex="cross:center main:center">
+    <div class="validate">
+        <div flex="main:center">
+            <span class="validatetext"><h3>认证失败</h3></span>
+        </div>
+        <div class="validatetext1" flex="main:center">
+            <p>请输入正确姓名!</p>
+        </div>
+        <button type="button" class="validatebtn"><h3>确定</h3></button>
+    </div>
+</div>
 
+<div class="mask d-none errorphone" flex="cross:center main:center">
+    <div class="validate">
+        <div flex="main:center">
+            <span class="validatetext"><h3>认证失败</h3></span>
+        </div>
+        <div class="validatetext1" flex="main:center">
+            <p>手机号码输入不正确!</p>
+        </div>
+        <button type="button" class="validatebtn"><h3>确定</h3></button>
+    </div>
+</div>
 
-<script src="../js/hs.js"></script>
+<div class="mask d-none errorcard" flex="cross:center main:center">
+    <div class="validate">
+        <div flex="main:center">
+            <span class="validatetext"><h3>认证失败</h3></span>
+        </div>
+        <div class="validatetext1" flex="main:center">
+            <p>身份证输入不正确!</p>
+        </div>
+        <button type="button" class="validatebtn"><h3>确定</h3></button>
+    </div>
+</div>
+
+<div class="mask d-none errorphoto" flex="cross:center main:center">
+    <div class="validate">
+        <div flex="main:center">
+            <span class="validatetext"><h3>认证失败</h3></span>
+        </div>
+        <div class="validatetext1" flex="main:center">
+            <p>请上传照片!</p>
+        </div>
+        <button type="button" class="validatebtn"><h3>确定</h3></button>
+    </div>
+</div>
+<script src="../js/hs2.js"></script>
 </body>
 </html>

@@ -2,16 +2,39 @@ body{
     font-size: 0;
     background: #fcf4df;
 }
-.pag3bn{
+.pag3bn2{
     width: 100vw;
+}
+.pag3btn{
+    position: absolute;
+    top: 1.52rem;
+    right: .3rem;
+    width: 1.4rem;
+    height: .66rem;
+    background-image: url("../image/HigtSchool/pag3btn.png");
+    background-size: 100% 100%;
+    border-radius: 6px;
+    box-shadow: 0 1px 0rgba(0,0,0,.1);
+}
+.pag3btn2{
+    position: absolute;
+    top: 3.14rem;
+    right: .3rem;
+    width: 1.4rem;
+    height: .66rem;
+    background-image: url("../image/HigtSchool/pag3btn.png");
+    background-size: 100% 100%;
+    border-radius: 6px;
+    box-shadow: 0 1px 0rgba(0,0,0,.1);
+}
+.pag3btn:active,.pag3btn2:active{
+    box-shadow: inset 0 1px 0 rgba(139,67,0,.3);
+    transform: translatey(1px);
 }
 .pag3c1{
     border-bottom: 1px #d9be9c dashed;
     width: 100vw;
     height: 1.6rem;
-}
-.pag3topbut{
-
 }
 .pag3jpg1{
     background-image: url("../image/HigtSchool/pag3jpg1.png");
@@ -20,8 +43,6 @@ body{
     font-size: .3rem;
     width: .82rem;
     height: .95rem;
-    margin-right: .24rem;
-
 }
 .pag3jpg2{
     background-image: url("../image/HigtSchool/pag3jpg2.png");
@@ -30,7 +51,6 @@ body{
     font-size: .3rem;
     width: .82rem;
     height: .95rem;
-    margin-right: .24rem;
 }
 .pag3jpg{
     background-image: url("../image/HigtSchool/pag3jpg.png");
@@ -39,7 +59,6 @@ body{
     font-size: .3rem;
     width: .82rem;
     height: .95rem;
-    margin-right: .24rem;
 }
 .pag3c1k{
     padding: 0 .55rem;
@@ -81,25 +100,36 @@ body{
 .d-none{
     display: none!important;
 }
-.pag3btnfk{
-    padding: 1.03rem .55rem .17rem;
+.mask{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(179,179,179,.7);
 }
-.pag3btnf{
-    width: 100vw;
-    height: .88rem;
-    border-radius: 30px;
+.validate{
+    width: 5.8rem;
+    height: 2.9rem;
+    background: #fcf4df;
+    border-radius: 10px;
+    position: relative;
+}
+.validatetext1{
+    font-size: .3rem;
     color: #76440a;
+}
+.validatetext{
+    font-size: .4rem;
+    color: #76440a;
+    margin-top: .7rem;
+}
+.validatebtn{
+    position: absolute;
+    width: 5.8rem;
+    height: .88rem;
+    bottom: 0;
+    background: #eca93e;
     font-size: .36rem;
-    font-weight: 900;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcd948+1,e89d3b+100 */
-    background: #fcd948; /* Old browsers */
-    background: -moz-linear-gradient(top,  #fcd948 1%, #e89d3b 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #fcd948 1%,#e89d3b 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #fcd948 1%,#e89d3b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd948', endColorstr='#e89d3b',GradientType=0 ); /* IE6-9 */
+    color: white;
 }
-.pag3btnf:active{
-    transform: scale(.96);
-    -webkit-transform: scale(.96);
-}
-

@@ -11,11 +11,15 @@
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/swiper.min.js"></script>
     <link rel="stylesheet" href="../css/swiper.min.css">
-    <link rel="stylesheet" href="../css/hs3.css">
+    <link rel="stylesheet" href="../css/hs3(2).css">
     <title>Higt School</title>
 </head>
 <body>
-<img src="../image/HigtSchool/pag3bn.png" class="pag3bn">
+<img src="../image/HigtSchool/pag3bn2.png" class="pag3bn2">
+<button class="pag3btn">
+</button>
+<button class="pag3btn2">
+</button>
 <div flex="main:center" class="pag3c1k">
     <div class="pag3c1" flex="main:justify">
         <div flex="main:justify cross:center">
@@ -44,31 +48,24 @@
         </div>
     </div>
 </div>
-<div flex="main:center">
-    <button type="button" id="pag3pop">查看已参与活动<img src="../image/HigtSchool/pag3pop.png"  class="pag3q" >
-        <img src="../image/HigtSchool/pag3pop2.png" class="d-none pag3q1"></button>
-</div>
-<div flex="main:center" class="pag3c1k pag3pop">
-    <div class="pag3c1" flex="main:justify">
-        <div flex="main:justify cross:center">
-            <div class="pag3jpg" flex="main:center cross:center">
-            </div>
-            <div class="pag3c1t">
-                <span class="pag3text">领最高12G流量</span>
-            </div>
+
+<div class="mask d-none enter" flex="cross:center main:center">
+    <div class="validate">
+        <div flex="main:center">
+            <span class="validatetext"><h3>恭喜，领取成功！</h3></span>
         </div>
-        <div flex="main:center cross:center">
-            <button type="button" class="pag3btn1">已领取</button>
-        </div>
+        <button type="button" class="validatebtn"><h3>我知道了</h3></button>
     </div>
 </div>
 
-<div flex="aross:center main:center" class="pag3btnfk">
-    <button type="button" class="pag3btnf">
-        <b>更多精彩</b>
-    </button>
+<div class="mask d-none error" flex="cross:center main:center">
+    <div class="validate">
+        <div flex="main:center">
+            <span class="validatetext"><h3>领取失败</h3></span>
+        </div>
+        <button type="button" class="validatebtn btnerror"><h3>返回重新领取</h3></button>
+    </div>
 </div>
-
-<script src="../js/hs3.js"></script>
+<script src="../js/hs3(2).js"></script>
 </body>
 </html>
